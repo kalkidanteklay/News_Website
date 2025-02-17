@@ -18,8 +18,18 @@
 .nav-container {
   display: flex;
   justify-content: flex-end; /* Moves nav to the right */
-  
+  max-width: 100%;
   padding: 10px 20px;
+}
+
+
+@media (max-width: 480px) {
+ .nav-container{
+  display: none;
+ }
+ .nav-item{
+  display:none;
+ }
 }
 
 /* Navigation Tabs */
