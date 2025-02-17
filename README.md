@@ -2,9 +2,9 @@
 
 ## Project Description
 
-This is a modern news application built with Angular that fetches and displays the latest news articles from an external news API. Users can browse different news categories, search for specific news topics, and view detailed news articles.
+This is a news application built with Angular that fetches and displays the latest news articles from an external news API. Users can browse different news categories, search for specific news topics, and view detailed news articles.
 
-- Features
+## Features
 
 - Fetches news articles from an external API.
 
@@ -21,7 +21,7 @@ This is a modern news application built with Angular that fetches and displays t
 Clone the repository:
 
 git clone https://github.com/your-username/news-app.git
-- cd news/ or your directory
+- cd into your directory
 
 Install dependencies:
 
@@ -30,11 +30,11 @@ Install dependencies:
 Set up the environment variables:
 -create an environments folder in the src folder
 
-- Create an environment.ts file in the root directory.
+- Create an environment.ts file inside the environments folder.
 
-Add your API key inside the .env file:
+Add your API key inside the file as follows:
 
-apiKEY=your_news_api_key_here
+apiKEY= 'your_news_api_key_here'
 
 Start the development server:
 
@@ -50,4 +50,4 @@ How to Obtain an API Key
 
 3. Generate an API key from the dashboard.
 
-4. Add the API key to your environments file as shown above.
+4. Add the API key to your environment.ts file as shown above.
