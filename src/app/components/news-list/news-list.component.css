@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Monomakh&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css");
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -163,18 +162,19 @@
 }
 
  .featured-news-card{
-  /* display: flex;
-  flex-direction: row; */
-
-  margin-left: 15px;
+  max-width: 100%;  /* Makes it adapt to screen size */
+  width: 90%;  /* Default width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto; /* Center it */
+  display: flex;
+  flex-direction: column; /* Stack on smaller screens */
   gap: 10px;
-  width: 600px;
-  height: 400px;
-  margin-bottom: 50px;
 }
 .card-img-top{
+  width: 100%;
+  height: auto;
   border-radius: 20px;
-  margin-bottom: 5px;
+  object-fit: cover;
 } 
 
 
